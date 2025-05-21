@@ -2,6 +2,7 @@
   "expo": {
     "name": "cicd-with-expo",
     "slug": "cicd-with-expo",
+    "owner": "yasith91",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,7 +10,9 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yasith91.cicdwithexpo",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
