@@ -24,7 +24,7 @@ name: Create builds
 
 on:
   push:
-    branches: ['main']
+    branches: ["main"]
 
 jobs:
   build_android:
@@ -39,3 +39,9 @@ jobs:
     params:
       platform: ios
       profile: production
+  submit_android:
+    name: Submit Android
+    type: submit
+    needs: [build_android]
+    params:
+      build_id: ${{ needs.build_android.outputs.build_id }}
