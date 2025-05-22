@@ -17,6 +17,10 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "../cicd-with-expo-00607b403f03.json"
+      }
+    }
   }
 }

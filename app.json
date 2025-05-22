@@ -19,7 +19,6 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "serviceAccountKeyPath": "../cicd-with-expo-00607b403f03.json",
       "edgeToEdgeEnabled": true,
       "package": "com.yasith91.cicdwithexpo"
     },
