@@ -14,7 +14,9 @@
     "production": {
       "autoIncrement": true,
       "environment": "production",
-      "ANDROID_SERVICE_ACCOUNT": "true"
+      "env": {
+        "ANDROID_SERVICE_ACCOUNT": true
+      }
     }
   },
   "submit": {
