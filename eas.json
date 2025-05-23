@@ -13,13 +13,14 @@
     },
     "production": {
       "autoIncrement": true,
-      "environment": "production"
+      "environment": "production",
+      "ANDROID_SERVICE_ACCOUNT": "true"
     }
   },
   "submit": {
     "production": {
       "android": {
-        "serviceAccountKeyPath": "../cicd-with-expo-00607b403f03.json",
+        "serviceAccountKeyPath": "./service-account.json",
         "releaseStatus": "draft"
       }
     }
