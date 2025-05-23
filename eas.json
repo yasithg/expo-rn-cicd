@@ -19,7 +19,8 @@
   "submit": {
     "production": {
       "android": {
-        "serviceAccountKeyPath": "../cicd-with-expo-00607b403f03.json"
+        "serviceAccountKeyPath": "../cicd-with-expo-00607b403f03.json",
+        "releaseStatus": "draft"
       }
     }
   }
