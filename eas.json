@@ -19,7 +19,7 @@
   "submit": {
     "production": {
       "android": {
-        "serviceAccountKeyPath": "env:ANDROID_SERVICE_ACCOUNT",
+        "serviceAccountKeyPath": "env:SERVICE_ACCOUNT",
         "releaseStatus": "draft"
       }
     }
