@@ -22,7 +22,7 @@
   "submit": {
     "production": {
       "android": {
-        "serviceAccountKeyPath": "./service-account.json",
+        "serviceAccountKeyPath": "env:ANDROID_SERVICE_ACCOUNT",
         "releaseStatus": "draft"
       }
     }
