@@ -28,6 +28,7 @@ on:
 
 env:
   EXPO_DEBUG: "1"
+  EAS_BUILD_DEBUG: "true"
 
 jobs:
   build_android:
@@ -36,12 +37,6 @@ jobs:
     params:
       platform: android
       profile: production
-  # build_ios:
-  #   name: Build iOS app
-  #   type: build
-  #   params:
-  #     platform: ios
-  #     profile: production
   submit_android:
     name: Submit Android
     type: submit
