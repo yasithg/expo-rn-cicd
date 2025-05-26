@@ -41,5 +41,7 @@ jobs:
     name: Submit Android
     type: submit
     needs: [build_android]
+    env:
+      EXPO_DEBUG: "1"
     params:
       build_id: ${{ needs.build_android.outputs.build_id }}
